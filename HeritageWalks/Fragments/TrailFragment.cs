@@ -44,9 +44,9 @@ namespace HeritageWalks.Fragments
                         mProgressBar.Hide();
                     });
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
-
+                    Console.WriteLine(e.Message);
                 }
             });
 
